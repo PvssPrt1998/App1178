@@ -4,6 +4,9 @@ final class Source: ObservableObject {
     
     @Published var selectedCategory: String = "All"
     
+    var skinDescription = ""
+    var show = false
+    
     let dataManager = DataManager()
     
     @Published var recipes: Array<Recipe> = []

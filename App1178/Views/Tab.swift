@@ -83,6 +83,9 @@ struct Tab: View {
 
             }
         }
+        .onAppear {
+            AppDelegate.orientationLock = .portrait
+        }
     }
 }
 

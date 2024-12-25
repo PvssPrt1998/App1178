@@ -112,4 +112,35 @@ final class DataManager {
         coreDataStack.managedContext.delete(recipeCD)
         coreDataStack.saveContext()
     }
+    
+    func saveSkinFull(_ full: Bool) {
+        do {
+            let ids = try coreDataStack.managedContext.fetch(ProgressFull.fetchRequest())
+            if ids.count > 0 {
+                //exists
+                ids[0].isFull = full
+            } else {
+                let isFull = ProgressFull(context: coreDataStack.managedContext)
+                isFull.isFull = full
+            }
+            coreDataStack.saveContext()
+        } catch let error as NSError {
+            print("Unresolved error \(error), \(error.userInfo)")
+        }
+    }
+    
+    func fetchIsSkinFull() throws -> Bool? {
+        guard let isFull = try coreDataStack.managedContext.fetch(ProgressFull.fetchRequest()).first else { return nil }
+        return isFull.isFull
+    }
+    
+    func fetchGuideSkinText() throws -> String? {
+        guard let text = try coreDataStack.managedContext.fetch(AchievementTitle.fetchRequest()).first else { return nil }
+        return text.title
+    }
+    
+    func saveGuideSkinText() {
+        let text = AchievementTitle(context: coreDataStack.managedContext)
+        coreDataStack.saveContext()
+    }
 }

@@ -40,6 +40,11 @@
 		991F9FE92D1898BC008CD497 /* AchievementCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991F9FE72D1898BC008CD497 /* AchievementCD+CoreDataProperties.swift */; };
 		991F9FEC2D189AE3008CD497 /* CurrentAchievementIndex+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991F9FEA2D189AE3008CD497 /* CurrentAchievementIndex+CoreDataClass.swift */; };
 		991F9FED2D189AE3008CD497 /* CurrentAchievementIndex+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991F9FEB2D189AE3008CD497 /* CurrentAchievementIndex+CoreDataProperties.swift */; };
+		991F9FEF2D1C2FE0008CD497 /* CookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991F9FEE2D1C2FE0008CD497 /* CookingView.swift */; };
+		991F9FF42D1C30E8008CD497 /* ProgressFull+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991F9FF02D1C30E8008CD497 /* ProgressFull+CoreDataClass.swift */; };
+		991F9FF52D1C30E8008CD497 /* ProgressFull+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991F9FF12D1C30E8008CD497 /* ProgressFull+CoreDataProperties.swift */; };
+		991F9FF62D1C30E8008CD497 /* AchievementTitle+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991F9FF22D1C30E8008CD497 /* AchievementTitle+CoreDataClass.swift */; };
+		991F9FF72D1C30E8008CD497 /* AchievementTitle+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991F9FF32D1C30E8008CD497 /* AchievementTitle+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +82,11 @@
 		991F9FE72D1898BC008CD497 /* AchievementCD+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AchievementCD+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		991F9FEA2D189AE3008CD497 /* CurrentAchievementIndex+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CurrentAchievementIndex+CoreDataClass.swift"; sourceTree = "<group>"; };
 		991F9FEB2D189AE3008CD497 /* CurrentAchievementIndex+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CurrentAchievementIndex+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		991F9FEE2D1C2FE0008CD497 /* CookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingView.swift; sourceTree = "<group>"; };
+		991F9FF02D1C30E8008CD497 /* ProgressFull+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProgressFull+CoreDataClass.swift"; sourceTree = "<group>"; };
+		991F9FF12D1C30E8008CD497 /* ProgressFull+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProgressFull+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		991F9FF22D1C30E8008CD497 /* AchievementTitle+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AchievementTitle+CoreDataClass.swift"; sourceTree = "<group>"; };
+		991F9FF32D1C30E8008CD497 /* AchievementTitle+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AchievementTitle+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +192,7 @@
 				991F9FCE2D13EB52008CD497 /* AchievementsView.swift */,
 				991F9FD02D13EE9D008CD497 /* AchievementCard.swift */,
 				991F9FD22D13FEBD008CD497 /* CompleteView.swift */,
+				991F9FEE2D1C2FE0008CD497 /* CookingView.swift */,
 			);
 			path = Tracker;
 			sourceTree = "<group>";
@@ -189,6 +200,10 @@
 		991F9FDA2D154817008CD497 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				991F9FF02D1C30E8008CD497 /* ProgressFull+CoreDataClass.swift */,
+				991F9FF12D1C30E8008CD497 /* ProgressFull+CoreDataProperties.swift */,
+				991F9FF22D1C30E8008CD497 /* AchievementTitle+CoreDataClass.swift */,
+				991F9FF32D1C30E8008CD497 /* AchievementTitle+CoreDataProperties.swift */,
 				991F9FEA2D189AE3008CD497 /* CurrentAchievementIndex+CoreDataClass.swift */,
 				991F9FEB2D189AE3008CD497 /* CurrentAchievementIndex+CoreDataProperties.swift */,
 				991F9FE62D1898BC008CD497 /* AchievementCD+CoreDataClass.swift */,
@@ -272,6 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				991F9FF42D1C30E8008CD497 /* ProgressFull+CoreDataClass.swift in Sources */,
+				991F9FF52D1C30E8008CD497 /* ProgressFull+CoreDataProperties.swift in Sources */,
+				991F9FF62D1C30E8008CD497 /* AchievementTitle+CoreDataClass.swift in Sources */,
+				991F9FF72D1C30E8008CD497 /* AchievementTitle+CoreDataProperties.swift in Sources */,
 				991F9FD72D140C45008CD497 /* SettingsView.swift in Sources */,
 				991F9FCA2D12DE1B008CD497 /* EditRecipes.swift in Sources */,
 				991F9FD12D13EE9D008CD497 /* AchievementCard.swift in Sources */,
@@ -289,6 +308,7 @@
 				991F9FB92D10E817008CD497 /* TextFieldCustom.swift in Sources */,
 				991F9FD92D141288008CD497 /* PrepareView.swift in Sources */,
 				991F9FAF2D107213008CD497 /* Splash.swift in Sources */,
+				991F9FEF2D1C2FE0008CD497 /* CookingView.swift in Sources */,
 				991F9FDF2D1548E5008CD497 /* CoreDataStack.swift in Sources */,
 				991F9FAD2D106708008CD497 /* Source.swift in Sources */,
 				991F9FCF2D13EB52008CD497 /* AchievementsView.swift in Sources */,
@@ -442,14 +462,14 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ros.sw3r3ctrh0bb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -476,14 +496,14 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ros.sw3r3ctrh0bb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -526,7 +546,6 @@
 				991F9FDC2D154827008CD497 /* DataModel.xcdatamodel */,
 			);
 			currentVersion = 991F9FDC2D154827008CD497 /* DataModel.xcdatamodel */;
-			name = DataModel.xcdatamodeld;
 			path = DataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

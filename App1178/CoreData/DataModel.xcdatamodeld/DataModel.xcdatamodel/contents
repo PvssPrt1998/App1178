@@ -4,8 +4,14 @@
         <attribute name="progress" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="title" optional="YES" attributeType="String"/>
     </entity>
+    <entity name="AchievementTitle" representedClassName=".AchievementTitle" syncable="YES">
+        <attribute name="title" optional="YES" attributeType="String" defaultValueString="skin0drop1flash2hae3jump4awp5"/>
+    </entity>
     <entity name="CurrentAchievementIndex" representedClassName=".CurrentAchievementIndex" syncable="YES">
         <attribute name="index" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="ProgressFull" representedClassName=".ProgressFull" syncable="YES">
+        <attribute name="isFull" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
     </entity>
     <entity name="RecipeCD" representedClassName=".RecipeCD" syncable="YES">
         <attribute name="category" optional="YES" attributeType="String"/>

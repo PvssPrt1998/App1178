@@ -8,24 +8,9 @@ struct Splash: View {
     
     var body: some View {
         ZStack {
-            Color
-                .white
+            Image("loadingBackground")
+                .resizable()
                 .ignoresSafeArea()
-            
-            VStack {
-                Image("SplashLogo")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 91, height: 76)
-                Text("Sweet Recipe:\nTracker Hobby")
-                    .font(.system(size: 34, weight: .black))
-                    .foregroundColor(.white)
-                    .gradientForeground(colors: [
-                        .backgroundGradient1.opacity(0.6),
-                        .backgroundGradient2.opacity(0.6),
-                        .backgroundGradient3.opacity(0.6)])
-                    .multilineTextAlignment(.center)
-            }
             
             HStack(spacing: 8) {
                 ProgressView()
@@ -37,14 +22,6 @@ struct Splash: View {
                     .foregroundColor(.cPrimary)
             }
             .frame(maxHeight: .infinity, alignment: .bottom)
-            
-            
-            Circle()
-                .trim(from: 0, to: 0.7)
-                .stroke(Color.white, lineWidth: 4)
-                .frame(width: 82, height: 82)
-                .rotationEffect(.degrees(value))
-                .padding(.top, UIScreen.main.bounds.height * 0.65)
         }
         .onAppear {
             source.load {
